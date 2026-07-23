@@ -37,3 +37,19 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+
+# Reports
+reports/
+
+# Target
+target/
+
+# Logs
+*.log
+
+# Screenshots
+screenshots/
