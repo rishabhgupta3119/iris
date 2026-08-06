@@ -34,5 +34,21 @@ public class TextBoxPage extends BasePage {
     public boolean isOutputVisible(){
         return wait.doScrollToWaitForVisibility(output);
     }
+//Below Methods: BDD Execution
+    public void enterName(String name) {
+        wait.doSendKeys(this.name, name);
+    }
+
+    public void enterEmail(String email) {
+        wait.doSendKeys(this.email, email);
+    }
+
+    public void enterCurrentAddress(String address) {
+        wait.doSendKeys(currentAddress, address);
+    }
+
+    public void enterPermanentAddress(String address) {
+        wait.doSendKeys(permanentAddress, address);
+    }
 
 }

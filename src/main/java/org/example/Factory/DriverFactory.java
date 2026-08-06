@@ -4,10 +4,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class DriverFactory {
+    private static WebDriver driver;
 
     public static WebDriver initDriver(String browser) {
-
-        WebDriver driver;
 
         switch (browser.toLowerCase()) {
 
@@ -24,6 +23,11 @@ public class DriverFactory {
                         "Unsupported browser: " + browser);
         }
         driver.manage().window().maximize();
+        return driver;
+    }
+
+    public static WebDriver getDriver() {
+
         return driver;
     }
 }
