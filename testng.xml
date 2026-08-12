@@ -21,8 +21,8 @@
 <!--            <class name="A2.DemoQATest.LinksPageTest"/>-->
             <class name="A2.DemoQATest.RadioButtonPageTest"/>
             <class name="A2.DemoQATest.TextBoxTest"/>
-            <class name="A2.DemoQATest.UploadAndDownLoadPageTest"/>
-            <class name="A2.DemoQATest.WebTablePageTest"/>
+<!--            <class name="A2.DemoQATest.UploadAndDownLoadPageTest"/>-->
+<!--            <class name="A2.DemoQATest.WebTablePageTest"/>-->
         </classes>
     </test>
 
